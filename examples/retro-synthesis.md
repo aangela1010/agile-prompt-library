@@ -26,16 +26,14 @@ the Friday async update format, team likes it
 pairing on complex tickets
 keeping retro to 45 minutes
 
-Output
-[# Team Orion — Sprint 24 Retrospective
+Action items that came out:
 
-**Service:** Notifications Service
-**Cadence:** Two-week sprint
-**Team size:** 5 engineers
-**Format:** Start / Stop / Continue
+Team agrees on a "no new work mid-sprint" norm, owned by the SM
+QA to be tagged when ticket hits code review, owned by devs
+Nudge protocol for stale reviews, owned by the SM
 
 ---
-
+ # Output
 ## Start
 
 Things we want to introduce.
