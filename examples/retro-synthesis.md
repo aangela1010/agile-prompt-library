@@ -4,8 +4,6 @@ Team name or context: Orion
 Sprint number or date: 24
 Retro format: Start Stop Continue
  
-
-
 Raw notes pasted into prompt:
 
 Start:
@@ -72,7 +70,7 @@ Things worth protecting.
 | 2 | Tag QA when ticket hits code review | Devs | Process |
 | 3 | Build a nudge protocol for stale reviews | SM | Protocol |]
 
-Notes
+## Notes
 Output added a formatted action item table unprompted which improved on the numbered list specified in the prompt. Slack message required no editing. 
 
 
