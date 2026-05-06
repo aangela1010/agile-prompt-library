@@ -1,4 +1,4 @@
-# [Prompt Name] Example
+# Retro Synthesis Example
 
 ## Input
 
@@ -9,6 +9,8 @@
 **Raw notes pasted into prompt:**
 
 [PASTE INPUT HERE]
+
+---
 
 ## Output
 
