@@ -6,25 +6,25 @@ Retro format: Start Stop Continue
  
 Raw notes pasted into prompt:
 
-Start:
+### Start:
 
 doing mid-sprint check-ins on blockers instead of waiting for standup
 tagging QA earlier when tickets are close to done
 using the shared Slack channel for cross-team questions instead of DMs
 
-Stop:
+### Stop:
 
 pulling in new work mid-sprint without team discussion
 letting review cycles sit for more than a day without a nudge
 scheduling meetings during the last two days of sprint
 
-Continue:
+### Continue:
 
 the Friday async update format, team likes it
 pairing on complex tickets
 keeping retro to 45 minutes
 
-Action items that came out:
+### Action items that came out:
 
 Team agrees on a "no new work mid-sprint" norm, owned by the SM
 QA to be tagged when ticket hits code review, owned by devs
