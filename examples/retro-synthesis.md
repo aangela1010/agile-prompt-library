@@ -41,7 +41,6 @@ Things we want to introduce.
 - Tagging QA earlier when tickets are close to done
 - Using the shared Slack channel for cross-team questions instead of DMs
 
----
 
 ### Stop
 
@@ -51,7 +50,6 @@ Things that are getting in the way.
 - Letting review cycles sit for more than a day without a nudge
 - Scheduling meetings during the last two days of sprint
 
----
 
 ### Continue
 
@@ -61,7 +59,6 @@ Things worth protecting.
 - Pairing on complex tickets
 - Keeping retro to 45 minutes
 
----
 
 ### Action Items
 
