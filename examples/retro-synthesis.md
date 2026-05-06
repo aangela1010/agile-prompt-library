@@ -3,7 +3,7 @@
 Team name or context: Orion 
 Sprint number or date: 24
 Retro format: Start Stop Continue
-Raw notes: 
+ 
 
 
 Raw notes pasted into prompt:
@@ -33,8 +33,8 @@ QA to be tagged when ticket hits code review, owned by devs
 Nudge protocol for stale reviews, owned by the SM
 
 ---
- # Output
-## Start
+ ## Output
+### Start
 
 Things we want to introduce.
 
@@ -44,7 +44,7 @@ Things we want to introduce.
 
 ---
 
-## Stop
+### Stop
 
 Things that are getting in the way.
 
@@ -54,7 +54,7 @@ Things that are getting in the way.
 
 ---
 
-## Continue
+### Continue
 
 Things worth protecting.
 
@@ -64,7 +64,7 @@ Things worth protecting.
 
 ---
 
-## Action Items
+### Action Items
 
 | # | Action | Owner | Tag |
 |---|--------|-------|-----|
@@ -73,10 +73,6 @@ Things worth protecting.
 | 3 | Build a nudge protocol for stale reviews | SM | Protocol |]
 
 Notes
+Output added a formatted action item table unprompted which improved on the numbered list specified in the prompt. Slack message required no editing. 
 
 
-## Action items that came out:
-
-Team agrees on a "no new work mid-sprint" norm, owned by the SM
-QA to be tagged when ticket hits code review, owned by devs
-Nudge protocol for stale reviews, owned by the SM
