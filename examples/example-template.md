@@ -1,5 +1,7 @@
 # [Prompt Name] Example
 
+## What This Does
+
 ## Raw Notes
 
 [The source material as it existed before being formatted into the prompt:
