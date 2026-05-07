@@ -32,7 +32,7 @@ SM notes:
 - Template migration is tedious work, team has been heads down on it for two sprints
 ---
 
-[[[## Prompt
+``` ## Prompt
 Use the pasted notes to identify key themes, decisions, and action items. Produce a structured summary suitable for Confluence, email or Slack. 
 Audience: Scrum Masters, support, and engineering leadership. 
 [Raw Notes pasted at this point in the prompt]
@@ -93,7 +93,8 @@ Worth flagging for Sprint 26 planning: the template migration has now stretched 
 
 ---
 
-*Summary prepared post-Sprint 25 | Team Orion | Notifications Service*]]]
+*Summary prepared post-Sprint 25 | Team Orion | Notifications Service*
+```
 
 ## Notes
 
