@@ -43,13 +43,11 @@ Audience: Scrum Masters, support, and engineering leadership.
 **Service:** Notifications Service
 **Sprint Goal:** Ship email retry logic and complete migration of legacy notification templates to the new service
 
----
 
 ## Sprint Outcome: Goal Partially Met
 
 The sprint goal was partially achieved. The email retry logic shipped to production, satisfying the primary deliverable and unblocking a downstream dependency for the payments team. Template migration fell short of completion due to unplanned bug work, with 3 of 11 templates carrying over to Sprint 26.
 
----
 
 ## Completed Work
 
@@ -58,15 +56,12 @@ The sprint goal was partially achieved. The email retry logic shipped to product
 - Bug fix for duplicate push notifications affecting mobile users deployed to production (Day 10)
 - Internal API documentation updated for the notifications endpoint
 
----
 
 ## Incomplete Work
 
 | Item | Reason | Status |
 |---|---|---|
 | 3 remaining legacy notification templates | Deprioritized mid-sprint to address unplanned push notification bug | Carrying into Sprint 26 |
-
----
 
 ## Deployments
 
@@ -75,13 +70,11 @@ The sprint goal was partially achieved. The email retry logic shipped to product
 | Email retry logic | Production | Day 8 |
 | Push notification bug fix | Production | Day 10 |
 
----
 
 ## Carry-Over: Sprint 26
 
 The 3 remaining templates are scoped for the first half of Sprint 26 and are on track to complete within that window. No architectural changes are expected; this is continuation work.
 
----
 
 ## SM Notes
 
@@ -91,10 +84,9 @@ The email retry logic was a cross-team dependency for payments; getting that out
 
 Worth flagging for Sprint 26 planning: the template migration has now stretched across two sprints. The work itself is not at risk, but it is tedious and the team has been heads down on it for a while. Consider whether there is room to vary the workload or acknowledge the effort in the sprint review.
 
----
 
 *Summary prepared post-Sprint 25 | Team Orion | Notifications Service*
-
+---
 
 ## Notes
 
