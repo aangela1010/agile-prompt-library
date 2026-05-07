@@ -8,27 +8,28 @@
 
 **Raw notes pasted into prompt:**
 
-### Start 
+### Start: 
 
-### Stop
+### Stop:
 
-### Continue
+### Continue:
 
-### Action Items
+### Action Items:
 
 ---
 
 ## Output
 
-### Start 
+### Start: 
 
-### Stop
+### Stop:
 
-### Continue
+### Continue:
 
-### Action Items
+### Action Items:
+---
 
-### Slack Summary
+### Slack Summary:
 
 ## Notes
 
