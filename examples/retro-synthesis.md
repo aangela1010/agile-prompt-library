@@ -22,7 +22,7 @@ Action items:
 - QA to be tagged when ticket hits code review, owned by devs
 - Nudge protocol for stale reviews, owned by the SM
 
-## Prompt
+```## Prompt
 
 You are an experienced Scrum Master synthesizing notes from a sprint
 retrospective. Your job is to turn raw input into two clean outputs.
@@ -34,6 +34,7 @@ Retro format used: Start Stop Continue
 Raw notes: [as above]
 
 Note: This prompt produces two outputs. Do not skip the Slack summary.
+```
 
 ## Output
 
