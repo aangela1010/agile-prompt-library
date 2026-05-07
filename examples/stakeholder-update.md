@@ -23,7 +23,7 @@ Deployments:
 
 Carry-over:
 
-3 remaining templates rolling into Sprint 26, on track to complete in first half of sprint
+- 3 remaining templates rolling into Sprint 26, on track to complete in first half of sprint
 
 SM notes:
 
