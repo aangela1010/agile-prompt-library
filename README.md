@@ -17,8 +17,10 @@ faster, so the time spent on delivery work goes toward thinking, not formatting.
 
 ## What is in here
 
+### Prompts
+
 - `prompts/retro-synthesis.md` — Synthesize raw retrospective input into a
-  structured summary with themes and action items
+  structured Confluence summary and Slack follow-up
 - `prompts/stakeholder-update.md` — Draft a concise, VP-ready sprint status
   update from raw sprint data
 - `prompts/blocker-triage.md` — Analyze a blocker and generate a structured
@@ -28,16 +30,27 @@ faster, so the time spent on delivery work goes toward thinking, not formatting.
 - `prompts/dependency-risk.md` — Identify and articulate cross-team dependency
   risks for planning conversations
 
+### Examples
+
+The `examples` folder contains end-to-end examples for each prompt showing
+realistic input and the AI output it produced, along with notes on what worked
+and what needed adjustment. Use these to understand what good output looks like
+before running a prompt against your own data.
+
 ## How to use it
 
-Each file contains a prompt template with placeholders in brackets. Copy the
+Each prompt file contains a template with placeholders in brackets. Copy the
 prompt, replace the placeholders with your actual content, and paste it into
 your AI tool of choice. Output will typically need light editing for tone or
 context but should be usable as a strong first draft.
+
+An `example-template.md` file is included in the examples folder if you want
+to contribute a new example or document your own results.
 
 These prompts were developed and tested using Claude (Anthropic).
 
 ## Notes
 
 This is a living document. Prompts are updated as they are tested against real
-delivery scenarios and refined for output quality.
+delivery scenarios and refined for output quality. Commit history reflects
+changes and the reasoning behind them.
