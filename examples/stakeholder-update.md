@@ -32,7 +32,7 @@ SM notes:
 - Template migration is tedious work, team has been heads down on it for two sprints
 ---
 
-``` ## Prompt
+```## Prompt
 Use the pasted notes to identify key themes, decisions, and action items. Produce a structured summary suitable for Confluence, email or Slack. 
 Audience: Scrum Masters, support, and engineering leadership. 
 [Raw Notes pasted at this point in the prompt] 
