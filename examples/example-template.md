@@ -27,6 +27,8 @@
 ### Continue:
 
 ### Action Items:
+| # | Action | Owner | Tag |
+|---|--------|-------|-----|
 ---
 
 ### Slack Summary:
