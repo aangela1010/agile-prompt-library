@@ -35,9 +35,9 @@ SM notes:
 ## Prompt
 Use the pasted notes to identify key themes, decisions, and action items. Produce a structured summary suitable for Confluence, email or Slack. 
 Audience: Scrum Masters, support, and engineering leadership. 
-[Raw Notes pasted at this point in the prompt]
+[Raw Notes pasted at this point in the prompt] ```
 
-```
+
 ## Output
 # Team Orion | Sprint 25 Retrospective Summary
 **Service:** Notifications Service
