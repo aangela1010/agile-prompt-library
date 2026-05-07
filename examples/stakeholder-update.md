@@ -39,23 +39,27 @@ Audience: Scrum Masters, support, and engineering leadership.
 
 
 ## Output
-A few quick questions before I finalize anything:
+Team Orion | Notifications Service | Sprint 25 Retrospective Summary
 
-Do you want this formatted as a written narrative (good for Confluence or a Slack post), a structured doc, or something else?
-Is there a stakeholder audience I should calibrate for (e.g., leadership only, cross-team, just the team itself)?
+Sprint Goal
+Ship the email retry logic and complete the migration of legacy notification templates to the new service.
+Outcome: Partially Met
+The sprint goal was split across two distinct workstreams. The email retry logic shipped successfully. Template migration reached 8 of 11, with 3 remaining templates carrying into Sprint 26 due to an unplanned bug that required mid-sprint attention.
 
-In the meantime, here's a solid draft you can react to:
+What Shipped
+The email retry logic went to production on day 8, completing a dependency that the payments team was waiting on. A duplicate push notification bug affecting mobile users was identified and resolved, with a fix deployed on day 10. Internal API documentation for the notifications endpoint was also updated. Eight of the eleven legacy notification templates were successfully migrated to the new service.
 
-Team Orion | Notifications Service | Sprint 25 Review
-Sprint 25 is wrapped, and the headline is: the sprint goal shipped.
-Email retry logic is live in production, completing a dependency that the payments team had been waiting on. That one mattered beyond Orion, and the team delivered it on day 8 of the sprint. The push notification duplicate bug, which surfaced mid-sprint and was not planned work, got fixed and deployed by day 10 without derailing the goal. That kind of absorption capacity is worth noting.
-On the template migration front, 8 of 11 legacy notification templates are now running on the new service. The remaining 3 were intentionally deprioritized when the bug work came in and will carry into Sprint 26. They are on track to wrap in the first half of the sprint. The team has been heads down on migration work for two sprints now, and the finish line is close.
-Shipped to production
-Email retry logic (day 8), push notification bug fix (day 10), API documentation update for the notifications endpoint.
-Carrying into Sprint 26
-3 remaining legacy notification templates, expected to complete early in the sprint.
+What Carried Over
+Three legacy templates did not make it into the sprint. When the push notification bug came in, the team made a deliberate call to deprioritize the remaining templates in order to address user-facing impact. Those three templates are rolling into Sprint 26 and are expected to complete in the first half of the sprint.
 
-Let me know if the tone is right, if you want the SM observations woven in more explicitly, or if there's a specific section you want expanded.
+Deployments
+ReleaseDateEmail retry logicSprint Day 8Push notification bug fixSprint Day 10
+
+SM Notes
+The team absorbed a meaningful unplanned interruption without losing the primary sprint goal. The email retry delivery was time-sensitive given the payments team dependency, and the team delivered it on schedule. The template migration work has been steady and heads-down across two sprints now. Worth acknowledging that this is unglamorous, detail-heavy work and the team has stayed consistent through it.
+
+Looking Ahead: Sprint 26
+Carry-in: 3 legacy notification templates (target: complete in first half of sprint)
 
 ## Notes
 
