@@ -7,10 +7,11 @@
 [The source material as it existed before being formatted into the prompt:
 Jira export, retro stickies, SM notes, whatever the real input was.]
 
->## Prompt
->
->[The filled-in prompt with all placeholders replaced with actual content,
->exactly as it was sent to Claude.]
+```## Prompt
+
+[The filled-in prompt with all placeholders replaced with actual content,
+exactly as it was sent to Claude.]
+```
 
 ## Output
 
