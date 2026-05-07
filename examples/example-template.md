@@ -1,38 +1,20 @@
-# Retro Synthesis Example
+# [Prompt Name] Example
 
-## Input
+## Raw Notes
 
-**Team name or context:** [TEAM NAME]
-**Sprint number or date:** [SPRINT # OR DATE RANGE]
-**Retro format used:** [FORMAT]
+[The source material as it existed before being formatted into the prompt:
+Jira export, retro stickies, SM notes, whatever the real input was.]
 
-**Raw notes pasted into prompt:**
+## Prompt
 
-### Start: 
-
-### Stop:
-
-### Continue:
-
-### Action Items:
-
----
+[The filled-in prompt with all placeholders replaced with actual content,
+exactly as it was sent to Claude.]
 
 ## Output
 
-### Start: 
-
-### Stop:
-
-### Continue:
-
-### Action Items:
-| # | Action | Owner | Tag |
-|---|--------|-------|-----|
----
-
-### Slack Summary:
+[Exactly what Claude returned, unedited.]
 
 ## Notes
 
-[1 to 2 sentences on what worked, what needed editing, or any adjustments made]
+[What worked, what needed adjustment, what the prompt did well or poorly,
+any refinements made as a result.]
