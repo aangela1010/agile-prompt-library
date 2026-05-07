@@ -32,11 +32,11 @@ SM notes:
 - Template migration is tedious work, team has been heads down on it for two sprints
 ---
 
-```## Prompt
-Use the pasted notes to identify key themes, decisions, and action items. Produce a structured summary suitable for Confluence, email or Slack. 
-Audience: Scrum Masters, support, and engineering leadership. 
-[Raw Notes pasted at this point in the prompt] 
-```
+>## Prompt
+>Use the pasted notes to identify key themes, decisions, and action items. Produce a structured summary suitable for Confluence, email or Slack. 
+>Audience: Scrum Masters, support, and engineering leadership. 
+>[Raw Notes pasted at this point in the prompt] 
+
 
 ## Output
 # Team Orion | Sprint 25 Retrospective Summary
@@ -90,5 +90,5 @@ Worth flagging for Sprint 26 planning: the template migration has now stretched 
 
 ## Notes
 
-Claude asked clarifying questions. Edit the initial prompt with more specifics stated.
-Formatting issues from direct paste of output: explicity asked for a .md compatible format (for example file) 
+- Claude asked clarifying questions. Edit the initial prompt with more specifics stated.
+- Formatting issues from direct paste of output: explicity asked for a .md compatible format (for example file) 
