@@ -7,19 +7,19 @@ Sprint: Sprint 25, just wrapped
 Sprint goal: Ship the email retry logic and complete the migration of legacy notification templates to the new service
 Completed work:
 
-Email retry logic shipped to production
-8 of 11 legacy notification templates migrated
-Bug fix for duplicate push notifications affecting mobile users
-Updated internal API documentation for the notifications endpoint
+- Email retry logic shipped to production
+- 8 of 11 legacy notification templates migrated
+- Bug fix for duplicate push notifications affecting mobile users
+- Updated internal API documentation for the notifications endpoint
 
 Incomplete work:
 
-3 remaining legacy templates, deprioritized mid-sprint when the duplicate push notification bug came in and required unplanned attention
+- 3 remaining legacy templates, deprioritized mid-sprint when the duplicate push notification bug came in and required unplanned attention
 
 Deployments:
 
-Email retry logic to production on day 8 of sprint
-Push notification bug fix to production on day 10
+- Email retry logic to production on day 8 of sprint
+- Push notification bug fix to production on day 10
 
 Carry-over:
 
@@ -27,9 +27,9 @@ Carry-over:
 
 SM notes:
 
-Team handled the unplanned bug work well without derailing the sprint goal
-The email retry logic was a dependency for the payments team, glad it shipped
-Template migration is tedious work, team has been heads down on it for two sprints
+- Team handled the unplanned bug work well without derailing the sprint goal
+- The email retry logic was a dependency for the payments team, glad it shipped
+- Template migration is tedious work, team has been heads down on it for two sprints
 ---
 
 ## Prompt
