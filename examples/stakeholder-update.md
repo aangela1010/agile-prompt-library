@@ -39,28 +39,63 @@ Audience: Scrum Masters, support, and engineering leadership.
 
 
 ## Output
-Team Orion | Notifications Service | Sprint 25 Retrospective Summary
+# Team Orion | Sprint 25 Retrospective Summary
+**Service:** Notifications Service
+**Sprint Goal:** Ship email retry logic and complete migration of legacy notification templates to the new service
 
-Sprint Goal
-Ship the email retry logic and complete the migration of legacy notification templates to the new service.
-Outcome: Partially Met
-The sprint goal was split across two distinct workstreams. The email retry logic shipped successfully. Template migration reached 8 of 11, with 3 remaining templates carrying into Sprint 26 due to an unplanned bug that required mid-sprint attention.
+---
 
-What Shipped
-The email retry logic went to production on day 8, completing a dependency that the payments team was waiting on. A duplicate push notification bug affecting mobile users was identified and resolved, with a fix deployed on day 10. Internal API documentation for the notifications endpoint was also updated. Eight of the eleven legacy notification templates were successfully migrated to the new service.
+## Sprint Outcome: Goal Partially Met
 
-What Carried Over
-Three legacy templates did not make it into the sprint. When the push notification bug came in, the team made a deliberate call to deprioritize the remaining templates in order to address user-facing impact. Those three templates are rolling into Sprint 26 and are expected to complete in the first half of the sprint.
+The sprint goal was partially achieved. The email retry logic shipped to production, satisfying the primary deliverable and unblocking a downstream dependency for the payments team. Template migration fell short of completion due to unplanned bug work, with 3 of 11 templates carrying over to Sprint 26.
 
-Deployments
-ReleaseDateEmail retry logicSprint Day 8Push notification bug fixSprint Day 10
+---
 
-SM Notes
-The team absorbed a meaningful unplanned interruption without losing the primary sprint goal. The email retry delivery was time-sensitive given the payments team dependency, and the team delivered it on schedule. The template migration work has been steady and heads-down across two sprints now. Worth acknowledging that this is unglamorous, detail-heavy work and the team has stayed consistent through it.
+## Completed Work
 
-Looking Ahead: Sprint 26
-Carry-in: 3 legacy notification templates (target: complete in first half of sprint)
+- Email retry logic deployed to production (Day 8)
+- 8 of 11 legacy notification templates migrated to the new service
+- Bug fix for duplicate push notifications affecting mobile users deployed to production (Day 10)
+- Internal API documentation updated for the notifications endpoint
+
+---
+
+## Incomplete Work
+
+| Item | Reason | Status |
+|---|---|---|
+| 3 remaining legacy notification templates | Deprioritized mid-sprint to address unplanned push notification bug | Carrying into Sprint 26 |
+
+---
+
+## Deployments
+
+| Deployment | Environment | Day |
+|---|---|---|
+| Email retry logic | Production | Day 8 |
+| Push notification bug fix | Production | Day 10 |
+
+---
+
+## Carry-Over: Sprint 26
+
+The 3 remaining templates are scoped for the first half of Sprint 26 and are on track to complete within that window. No architectural changes are expected; this is continuation work.
+
+---
+
+## SM Notes
+
+The team absorbed unplanned bug work cleanly without losing the sprint goal. The duplicate push notification issue required immediate attention given its impact on mobile users, and the team reprioritized well.
+
+The email retry logic was a cross-team dependency for payments; getting that out on Day 8 was the right call and kept downstream work unblocked.
+
+Worth flagging for Sprint 26 planning: the template migration has now stretched across two sprints. The work itself is not at risk, but it is tedious and the team has been heads down on it for a while. Consider whether there is room to vary the workload or acknowledge the effort in the sprint review.
+
+---
+
+*Summary prepared post-Sprint 25 | Team Orion | Notifications Service*
 
 ## Notes
 
 Claude asked clarifying questions. Edit the initial prompt with more specifics stated.
+Formatting issues from direct paste of output: explicity asked for a .md compatible format (for example file) 
